@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		FD35078722602DF2003B4A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35078622602DF2003B4A6E /* AppDelegate.swift */; };
-		FD35078E22602DF3003B4A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35078D22602DF3003B4A6E /* Assets.xcassets */; };
 		FD35079122602DF3003B4A6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD35078F22602DF3003B4A6E /* LaunchScreen.storyboard */; };
 		FD35079C22602DF4003B4A6E /* XFParallaxTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35079B22602DF4003B4A6E /* XFParallaxTableTests.swift */; };
 		FD3507A722602DF4003B4A6E /* XFParallaxTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3507A622602DF4003B4A6E /* XFParallaxTableUITests.swift */; };
-		FD3507B622603179003B4A6E /* XFParallaxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3507B422603179003B4A6E /* XFParallaxTableViewController.swift */; };
-		FD3507B722603179003B4A6E /* XFParallaxTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD3507B522603179003B4A6E /* XFParallaxTableViewController.xib */; };
-		FD3507BA22603AD8003B4A6E /* XFParallaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3507B822603AD8003B4A6E /* XFParallaxTableViewCell.swift */; };
-		FD3507BB22603AD8003B4A6E /* XFParallaxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD3507B922603AD8003B4A6E /* XFParallaxTableViewCell.xib */; };
-		FD3507BF22605EB4003B4A6E /* XFParallaxTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3507BE22605EB4003B4A6E /* XFParallaxTableModel.swift */; };
+		FD479AD8226D622B006CD778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD479AD7226D622B006CD778 /* Assets.xcassets */; };
+		FD479AE9226D654C006CD778 /* ParallaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD479AE7226D654C006CD778 /* ParallaxTableViewCell.swift */; };
+		FD479AEA226D654C006CD778 /* ParallaxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD479AE8226D654C006CD778 /* ParallaxTableViewController.swift */; };
+		FD479AF3226D65FF006CD778 /* ExampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD479AED226D65FF006CD778 /* ExampleCell.xib */; };
+		FD479AF4226D65FF006CD778 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD479AEE226D65FF006CD778 /* ExampleModel.swift */; };
+		FD479AF5226D65FF006CD778 /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD479AEF226D65FF006CD778 /* ExampleCell.swift */; };
+		FD479AF6226D65FF006CD778 /* ExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD479AF0226D65FF006CD778 /* ExampleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		FD35078322602DF2003B4A6E /* XFParallaxTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFParallaxTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD35078622602DF2003B4A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD35078D22602DF3003B4A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD35079022602DF3003B4A6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD35079222602DF3003B4A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD35079722602DF4003B4A6E /* XFParallaxTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFParallaxTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +48,13 @@
 		FD3507A222602DF4003B4A6E /* XFParallaxTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFParallaxTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3507A622602DF4003B4A6E /* XFParallaxTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XFParallaxTableUITests.swift; sourceTree = "<group>"; };
 		FD3507A822602DF4003B4A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD3507B422603179003B4A6E /* XFParallaxTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XFParallaxTableViewController.swift; sourceTree = "<group>"; };
-		FD3507B522603179003B4A6E /* XFParallaxTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XFParallaxTableViewController.xib; sourceTree = "<group>"; };
-		FD3507B822603AD8003B4A6E /* XFParallaxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XFParallaxTableViewCell.swift; sourceTree = "<group>"; };
-		FD3507B922603AD8003B4A6E /* XFParallaxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XFParallaxTableViewCell.xib; sourceTree = "<group>"; };
-		FD3507BE22605EB4003B4A6E /* XFParallaxTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XFParallaxTableModel.swift; sourceTree = "<group>"; };
+		FD479AD7226D622B006CD778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD479AE7226D654C006CD778 /* ParallaxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxTableViewCell.swift; sourceTree = "<group>"; };
+		FD479AE8226D654C006CD778 /* ParallaxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxTableViewController.swift; sourceTree = "<group>"; };
+		FD479AED226D65FF006CD778 /* ExampleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleCell.xib; sourceTree = "<group>"; };
+		FD479AEE226D65FF006CD778 /* ExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		FD479AEF226D65FF006CD778 /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
+		FD479AF0226D65FF006CD778 /* ExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +105,12 @@
 		FD35078522602DF2003B4A6E /* XFParallaxTable */ = {
 			isa = PBXGroup;
 			children = (
+				FD479AEB226D657A006CD778 /* Example */,
+				FD479AE6226D6523006CD778 /* Parallax */,
+				FD479AD7226D622B006CD778 /* Assets.xcassets */,
 				FD35078622602DF2003B4A6E /* AppDelegate.swift */,
-				FD35078D22602DF3003B4A6E /* Assets.xcassets */,
 				FD35078F22602DF3003B4A6E /* LaunchScreen.storyboard */,
 				FD35079222602DF3003B4A6E /* Info.plist */,
-				FD3507B422603179003B4A6E /* XFParallaxTableViewController.swift */,
-				FD3507B522603179003B4A6E /* XFParallaxTableViewController.xib */,
-				FD3507BE22605EB4003B4A6E /* XFParallaxTableModel.swift */,
-				FD3507B822603AD8003B4A6E /* XFParallaxTableViewCell.swift */,
-				FD3507B922603AD8003B4A6E /* XFParallaxTableViewCell.xib */,
 			);
 			path = XFParallaxTable;
 			sourceTree = "<group>";
@@ -132,6 +131,26 @@
 				FD3507A822602DF4003B4A6E /* Info.plist */,
 			);
 			path = XFParallaxTableUITests;
+			sourceTree = "<group>";
+		};
+		FD479AE6226D6523006CD778 /* Parallax */ = {
+			isa = PBXGroup;
+			children = (
+				FD479AE7226D654C006CD778 /* ParallaxTableViewCell.swift */,
+				FD479AE8226D654C006CD778 /* ParallaxTableViewController.swift */,
+			);
+			path = Parallax;
+			sourceTree = "<group>";
+		};
+		FD479AEB226D657A006CD778 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				FD479AEF226D65FF006CD778 /* ExampleCell.swift */,
+				FD479AED226D65FF006CD778 /* ExampleCell.xib */,
+				FD479AEE226D65FF006CD778 /* ExampleModel.swift */,
+				FD479AF0226D65FF006CD778 /* ExampleTableViewController.swift */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,10 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3507B722603179003B4A6E /* XFParallaxTableViewController.xib in Resources */,
 				FD35079122602DF3003B4A6E /* LaunchScreen.storyboard in Resources */,
-				FD3507BB22603AD8003B4A6E /* XFParallaxTableViewCell.xib in Resources */,
-				FD35078E22602DF3003B4A6E /* Assets.xcassets in Resources */,
+				FD479AD8226D622B006CD778 /* Assets.xcassets in Resources */,
+				FD479AF3226D65FF006CD778 /* ExampleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3507B622603179003B4A6E /* XFParallaxTableViewController.swift in Sources */,
-				FD3507BF22605EB4003B4A6E /* XFParallaxTableModel.swift in Sources */,
-				FD3507BA22603AD8003B4A6E /* XFParallaxTableViewCell.swift in Sources */,
+				FD479AF5226D65FF006CD778 /* ExampleCell.swift in Sources */,
+				FD479AEA226D654C006CD778 /* ParallaxTableViewController.swift in Sources */,
+				FD479AE9226D654C006CD778 /* ParallaxTableViewCell.swift in Sources */,
+				FD479AF4226D65FF006CD778 /* ExampleModel.swift in Sources */,
+				FD479AF6226D65FF006CD778 /* ExampleTableViewController.swift in Sources */,
 				FD35078722602DF2003B4A6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

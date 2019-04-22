@@ -17,8 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         window = UIWindow.init(frame: UIScreen.main.bounds)
-        let parallaxVC = XFParallaxTableViewController.init(nibName: "XFParallaxTableViewController", bundle: nil)
-        let nav = UINavigationController.init(rootViewController: parallaxVC)
+//        let e = XFParallaxTableViewController.init(nibName: "XFParallaxTableViewController", bundle: nil)
+        let e = ExampleTableViewController.init()
+//        let e = ExampleViewController.init(nibName: "ExampleViewController", bundle: nil)
+        
+        
+        let nav = UINavigationController.init(rootViewController: e)
         nav.navigationBar.backgroundColor = UIColor.purple
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
